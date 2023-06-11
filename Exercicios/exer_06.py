@@ -2,3 +2,9 @@
 # ela pode comprar;
 
 # Obs: Usar a cotação atual.
+
+numero = float(input('Digite uma quantia em reais para comprar Dólar: '))
+
+cotaçãoDolar = numero / 4.88
+
+print('A quantia de R$ {} consegue comprar {:2f} em Dólar.'.format(numero, cotaçãoDolar))
