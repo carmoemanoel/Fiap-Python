@@ -1,9 +1,20 @@
 # Faça um programa que leia um número inteiro qualquer e mostre na tela a sua tabuada
 
-tabuada=int(input("Digite um número para exibir a tabuada: "))
-print("Tabuada do número ", tabuada)
-for valor in range(1,11,1):
-    print(str(tabuada) + " x " + str(valor) + " = " + str((tabuada*valor)))
+tabuada = int(input('Digite um número para ver a tabuada: '))
+
+print('*'*15)
+print('{} x {} = {}'.format(tabuada, 1, tabuada*1))
+print('{} x {} = {}'.format(tabuada, 2, tabuada*2))
+print('{} x {} = {}'.format(tabuada, 3, tabuada*3))
+print('{} x {} = {}'.format(tabuada, 4, tabuada*4))
+print('{} x {} = {}'.format(tabuada, 5, tabuada*5))
+print('{} x {} = {}'.format(tabuada, 6, tabuada*6))
+print('{} x {} = {}'.format(tabuada, 7, tabuada*7))
+print('{} x {} = {}'.format(tabuada, 8, tabuada*8))
+print('{} x {} = {}'.format(tabuada, 9, tabuada*9))
+print('{} x {} = {}'.format(tabuada, 10, tabuada*10))
+print('*'*15)
+
 
 
 
