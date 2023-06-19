@@ -1,8 +1,14 @@
 # O mesmo professor do desafio anterior quer sortear a ordem de apresentação do trabalho dos alunos.
-# Faça um programa que leia o nome dos quatros alunos e mostre a ordem sorteada.
+# Faça um programa que leia o nome dos quatros alunos e mostre a ordem sorteada embaralhada.
 
 import random
 
-sorteio = ['Emanoel' , 'Alexandra' , 'Sthella' , 'Merlyn']
+n1 = input('Primeiro aluno: ')
+n2 = input('Segundo aluno: ')
+n3 = input('Terceiro aluno: ')
+n4 = input('Quarto aluno: ')
+lista = [n1 , n2, n3, n4]
 
-print(random.choice(sorteio))
+random.shuffle(lista)
+print('A ordem de apresentação será...')
+print(lista)
